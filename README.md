@@ -2,6 +2,10 @@
 
 A Clojure library designed to ... well, that part is up to you.
 
+#### Lein Commands:
+- `lein clean`
+- `lein deps`
+
 ## Usage
 
 FIXME
