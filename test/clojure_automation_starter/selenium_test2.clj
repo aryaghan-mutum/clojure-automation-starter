@@ -1,5 +1,8 @@
 (use 'etaoin.api)
 (require '[etaoin.keys :as k])
+;(import clojure-automation-starter.pages.some_page)
+
+;(require clojure-automation-starter.pages.some_page)
 
 (def driver (chrome))
 
@@ -7,6 +10,8 @@
 (wait-visible driver [{:id :simpleSearch} {:tag :input :name :search}])
 
 ;; search for something
+;(setText driver "Clojure programming language")
+
 (fill driver {:tag :input :name :search} "Clojure programming language")
 (fill driver {:tag :input :name :search} k/enter)
 (wait-visible driver {:class :mw-search-results})

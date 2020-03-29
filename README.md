@@ -2,7 +2,7 @@
 
 A Clojure library designed to ... well, that part is up to you.
 
-#### Lein Commands:
+#### Leiningen Commands:
 - `lein clean`
 - `lein deps`
 

@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37cefa06-93ea-49cf-b680-03f0b4aec4f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test/clojure_automation_starter/core_test2.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_codec_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__slingshot_0_12_2.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clojure_automation_starter/pages/some_page.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/clojure_automation_starter/core_test3.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clojure-automation-starter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clojure-automation-starter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clojure_automation_starter/core.clj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/clojure_automation_starter/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/clojure_automation_starter/core_test.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/clojure_automation_starter/selenium_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/clojure_automation_starter/selenium_test.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/clojure_automation_starter/selenium_test2.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/clojure_automation_starter/selenium_test2.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,65 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="core_test.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/core_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core_test2.clj" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/core_test2.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.clj" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/test.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="767" column="6" selection-start-line="767" selection-start-column="6" selection-end-line="767" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selenium_test2.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/selenium_test2.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state>
+              <caret selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -87,31 +35,97 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clojure_automation_starter/core.clj">
+      <file leaf-file-name="core_test2.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/core_test2.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state>
+              <caret selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compiler.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="core_test3.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/core_test3.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="selenium_test2.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/selenium_test2.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="some_page.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clojure_automation_starter/pages/some_page.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keys.clj" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/etaoin/etaoin/0.3.6/etaoin-0.3.6.jar!/etaoin/keys.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.clj" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/etaoin/etaoin/0.3.6/etaoin-0.3.6.jar!/etaoin/api.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="2227" column="6" selection-start-line="2227" selection-start-column="6" selection-end-line="2227" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="selenium_test.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/selenium_test.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>plug</find>
+      <find>driver</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,19 +141,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/clojure_automation_starter/selenium_test.clj" />
-        <option value="$PROJECT_DIR$/test/clojure_automation_starter/selenium_test2.clj" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/test/clojure_automation_starter/core_test.clj" />
         <option value="$PROJECT_DIR$/test/clojure_automation_starter/core_test2.clj" />
+        <option value="$PROJECT_DIR$/test/clojure_automation_starter/selenium_test.clj" />
+        <option value="$PROJECT_DIR$/test/clojure_automation_starter/core_test3.clj" />
+        <option value="$PROJECT_DIR$/src/clojure_automation_starter/core.clj" />
+        <option value="$PROJECT_DIR$/src/clojure_automation_starter/pages/some_page.clj" />
+        <option value="$PROJECT_DIR$/test/clojure_automation_starter/selenium_test2.clj" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/project.clj" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="70" />
-    <option name="y" value="26" />
+    <option name="x" value="15" />
+    <option name="y" value="23" />
     <option name="width" value="1306" />
     <option name="height" value="745" />
   </component>
@@ -159,16 +176,6 @@
             <path>
               <item name="clojure-automation-starter" type="b2602c69:ProjectViewProjectNode" />
               <item name="clojure-automation-starter" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clojure-automation-starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clojure-automation-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clojure-automation-starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clojure-automation-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -176,6 +183,13 @@
               <item name="clojure-automation-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="clojure_automation_starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-automation-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-automation-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="clojure_automation_starter" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clojure-automation-starter" type="b2602c69:ProjectViewProjectNode" />
@@ -193,6 +207,10 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="clojure_automation_starter" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="clojure-automation-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -202,7 +220,15 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="ReplState" timestamp="1585437834116">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/clojure_automation_starter/pages" />
+    </key>
+  </component>
+  <component name="ReplState" timestamp="1585447474458">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -215,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application.core_test2">
+  <component name="RunManager" selected="Clojure REPL.REPL for clojure-automation-starter">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -247,31 +273,9 @@
       <setting name="configType" value="SPECIFY" />
       <setting name="fixLineNumbers" value="false" />
     </configuration>
-    <configuration name="clojure-automation-starter.core-test" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+    <configuration name="core_test3" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="clojure-automation-starter" />
-      <setting name="path" value="$PROJECT_DIR$/test/clojure_automation_starter/core_test.clj" />
-      <setting name="namespace" value="" />
-      <setting name="execution" value="INTELLIJ" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/test/clojure_automation_starter" />
-    </configuration>
-    <configuration name="core_test" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="clojure-automation-starter" />
-      <setting name="path" value="$PROJECT_DIR$/test/clojure_automation_starter/core_test.clj" />
-      <setting name="namespace" value="" />
-      <setting name="execution" value="INTELLIJ" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/test/clojure_automation_starter" />
-    </configuration>
-    <configuration name="core_test2" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="clojure-automation-starter" />
-      <setting name="path" value="$PROJECT_DIR$/test/clojure_automation_starter/core_test2.clj" />
+      <setting name="path" value="$PROJECT_DIR$/test/clojure_automation_starter/core_test3.clj" />
       <setting name="namespace" value="" />
       <setting name="execution" value="INTELLIJ" />
       <setting name="profiles" value="" />
@@ -281,6 +285,28 @@
       <setting name="workDir" value="$PROJECT_DIR$/test/clojure_automation_starter" />
     </configuration>
     <configuration name="selenium_test2" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clojure-automation-starter" />
+      <setting name="path" value="$PROJECT_DIR$/test/clojure_automation_starter/selenium_test2.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/test/clojure_automation_starter" />
+    </configuration>
+    <configuration name="user (1)" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clojure-automation-starter" />
+      <setting name="path" value="$PROJECT_DIR$/test/clojure_automation_starter/core_test3.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/test/clojure_automation_starter" />
+    </configuration>
+    <configuration name="user" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="clojure-automation-starter" />
       <setting name="path" value="$PROJECT_DIR$/test/clojure_automation_starter/selenium_test2.clj" />
       <setting name="namespace" value="" />
@@ -330,19 +356,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Clojure Application.core_test" />
-      <item itemvalue="Clojure Application.clojure-automation-starter.core-test" />
+      <item itemvalue="Clojure Application.user" />
       <item itemvalue="Clojure Application.selenium_test2" />
+      <item itemvalue="Clojure Application.core_test3" />
+      <item itemvalue="Clojure Application.user (1)" />
       <item itemvalue="Clojure REPL.REPL for clojure-automation-starter" />
-      <item itemvalue="Clojure Application.core_test2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Clojure Application.core_test2" />
-        <item itemvalue="Clojure Application.core_test" />
         <item itemvalue="Clojure REPL.REPL for clojure-automation-starter" />
-        <item itemvalue="Clojure Application.clojure-automation-starter.core-test" />
         <item itemvalue="Clojure Application.selenium_test2" />
+        <item itemvalue="Clojure Application.user" />
+        <item itemvalue="Clojure Application.core_test3" />
+        <item itemvalue="Clojure Application.user (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +386,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="23" width="1306" height="745" extended-state="0" />
+    <frame x="15" y="23" width="1306" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -371,19 +397,19 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="REPL" sideWeight="0.76" side_tool="true" visible="true" weight="0.34018987" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3296" />
+      <window_info anchor="right" id="REPL" sideWeight="0.7613365" side_tool="true" visible="true" weight="0.2927215" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3296" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="right" id="Leiningen" sideWeight="0.24" visible="true" weight="0.34018987" />
+      <window_info anchor="right" id="Leiningen" sideWeight="0.23866348" visible="true" weight="0.2927215" />
       <window_info anchor="bottom" id="Terminal" weight="0.3296" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19066456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19066456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -441,12 +467,63 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/clojure_automation_starter/selenium_test2.clj</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/clojure_automation_starter/selenium_test2.clj</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/clojure_automation_starter/selenium_test2.clj</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/clojure_automation_starter/selenium_test2.clj</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>(defn one-time-setup []
+  (println &quot;one time setup&quot;))
+
+(defn one-time-teardown []
+  (println &quot;one time teardown&quot;))
+
+(defn once-fixture [f]
+  (one-time-setup)
+  (f)
+  (one-time-teardown))
+
+;; register as a one-time callback
+(use-fixtures :once once-fixture)</expression-string>
+        <language-id>Clojure</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(deftest test-async
+  (async done
+         (http/get &quot;http://foo.com/api.edn&quot;
+                   (fn [res]
+                     (is (= res :awesome))
+                     (done)))))</expression-string>
+        <language-id>Clojure</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>;; A function in namespace com.example.core
 (defn capitalize-entries
@@ -529,13 +606,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/selenium_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/intro.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -546,36 +616,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clojure_automation_starter/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/selenium_test2.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
@@ -584,24 +626,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/etaoin/etaoin/0.3.6/etaoin-0.3.6.jar!/etaoin/driver.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="85" column="10" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/etaoin/etaoin/0.3.6/etaoin-0.3.6.jar!/etaoin/xpath.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1168" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/etaoin/etaoin/0.3.6/etaoin-0.3.6.jar!/html/simple.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/etaoin/etaoin/0.3.6/etaoin-0.3.6.jar!/js/inject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/etaoin/etaoin/0.3.6/etaoin-0.3.6.jar!/html/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/core_test3/clj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/selenium_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/test.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="767" column="6" selection-start-line="767" selection-start-column="6" selection-end-line="767" selection-end-column="6" />
+          <caret line="621" column="10" selection-start-line="621" selection-start-column="10" selection-end-line="621" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/etaoin/etaoin/0.3.6/etaoin-0.3.6.jar!/etaoin/api.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="2227" column="6" selection-start-line="2227" selection-start-column="6" selection-end-line="2227" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/etaoin/etaoin/0.3.6/etaoin-0.3.6.jar!/etaoin/keys.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/selenium_test2.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clojure_automation_starter/pages/some_page.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/core_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="18" />
+        <state>
+          <caret selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/core_test2.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state>
+          <caret selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/clojure_automation_starter/core_test3.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>

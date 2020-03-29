@@ -9,7 +9,10 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
 
   :dependencies [[org.clojure/clojure "1.10.0"]
+                 [org.clojure/core.async "0.4.474"]
                  [etaoin/etaoin "0.3.6"]
-                 [midje "1.6.3"]]
+                 [midje "1.6.3"]
+                 [expectations/expectations "2.1.10"]
+                 [env/faker "0.3.0"]]
 
   :repl-options {:init-ns clojure-automation-starter.core})

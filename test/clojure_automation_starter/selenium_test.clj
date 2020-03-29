@@ -3,6 +3,7 @@
 
 
 (def driver (firefox))
+
 (doto driver
   (go "https://en.wikipedia.org/")
   (wait-visible [{:id :simpleSearch} {:tag :input :name :search}])

@@ -1,6 +1,6 @@
 (ns clojure-automation-starter.core-test
   (:require [clojure.test :refer :all]
-            [clojure-automation-starter.core :refer :all]))
+            [clojure-automation-starter.some_page :refer :all]))
 
 
 (is (= 4 (+ 2 3)))
