@@ -13,6 +13,7 @@
                  [etaoin/etaoin "0.3.6"]
                  [midje "1.6.3"]
                  [expectations/expectations "2.1.10"]
-                 [env/faker "0.3.0"]]
+                 [env/faker "0.3.0"]
+                 [org.clojure/tools.trace "0.7.10"]]
 
   :repl-options {:init-ns clojure-automation-starter.core})

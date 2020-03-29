@@ -1,9 +1,10 @@
-(ns clojure-automation-starter.core-test
-  (:require [clojure.test :refer :all]
-            [clojure-automation-starter.some_page :refer :all]))
+(ns clojure-automation-starter.core-test)
 
+;(ns clojure-automation-starter.core-test3
+;  (:use faker.name faker.lorem))
 
 (is (= 4 (+ 2 3)))
+
 ;
 ;(testing "Arithmetic"
 ;  (testing "with positive integers"
@@ -16,6 +17,13 @@
 ;
 ;(deftest a-test
 ;  (testing "FIXME, I fail."
-;    (is (= 0 1))))
+;    (is (= 1 1))))
 ;
 ;(a-test)
+
+
+;(deftest fff
+;  []
+;  (is (= 4 (+ 2 3))))
+;
+;(fff)
