@@ -14,6 +14,7 @@
                  [midje "1.6.3"]
                  [expectations/expectations "2.1.10"]
                  [env/faker "0.3.0"]
-                 [org.clojure/tools.trace "0.7.10"]]
+                 [org.clojure/tools.trace "0.7.10"]
+                 [com.taoensso/timbre "4.10.0"]]
 
   :repl-options {:init-ns clojure-automation-starter.core})

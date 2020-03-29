@@ -31,6 +31,9 @@
     <orderEntry type="library" name="Leiningen: com.google.javascript/closure-compiler-externs:v20150505" level="project" />
     <orderEntry type="library" name="Leiningen: com.google.javascript/closure-compiler:v20150505" level="project" />
     <orderEntry type="library" name="Leiningen: com.google.protobuf/protobuf-java:2.5.0" level="project" />
+    <orderEntry type="library" name="Leiningen: com.taoensso/encore:2.91.0" level="project" />
+    <orderEntry type="library" name="Leiningen: com.taoensso/timbre:4.10.0" level="project" />
+    <orderEntry type="library" name="Leiningen: com.taoensso/truss:1.5.0" level="project" />
     <orderEntry type="library" name="Leiningen: commons-codec:1.9" level="project" />
     <orderEntry type="library" name="Leiningen: commons-io:2.5" level="project" />
     <orderEntry type="library" name="Leiningen: commons-logging:1.2" level="project" />
@@ -39,6 +42,7 @@
     <orderEntry type="library" name="Leiningen: etaoin:0.3.6" level="project" />
     <orderEntry type="library" name="Leiningen: expectations:2.1.10" level="project" />
     <orderEntry type="library" name="Leiningen: gui-diff:0.5.0" level="project" />
+    <orderEntry type="library" name="Leiningen: io.aviso/pretty:0.1.33" level="project" />
     <orderEntry type="library" name="Leiningen: joda-time:2.9.3" level="project" />
     <orderEntry type="library" name="Leiningen: junit:4.12" level="project" />
     <orderEntry type="library" name="Leiningen: midje:1.6.3" level="project" />

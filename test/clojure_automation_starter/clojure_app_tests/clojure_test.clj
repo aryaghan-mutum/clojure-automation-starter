@@ -74,6 +74,8 @@
     (click-news)
     (quit)))
 
+;(test-news)
+
 (deftest test-search
   (doto driver
     (go clojure-url)
@@ -81,3 +83,6 @@
     (quit)))
 
 (test-search)
+
+
+;(run-tests)

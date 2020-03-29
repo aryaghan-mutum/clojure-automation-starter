@@ -3,10 +3,11 @@
 A Clojure library designed to ... well, that part is up to you.
 
 #### Leiningen Commands:
-- `lein new app my-clojure-project`
+- `lein new app my-clojure-project` or  `lein new my-clojure-project`
 - `lein clean`
 - `lein deps`
 - `lein repl`
+- `lein test`
 
 ## Usage
 
