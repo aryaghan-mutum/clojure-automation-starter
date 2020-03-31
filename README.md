@@ -8,6 +8,17 @@ A Clojure library designed to ... well, that part is up to you.
 - `lein deps`
 - `lein repl`
 - `lein test`
+- `lein run`
+
+#### Generate a Project:
+`wget https://raw.github.com/technomancy/leiningen/stable/bin/lein
+chmod +x lein
+mv lein ~/bin
+lein new myapp`
+
+####
+- lein new compojure-app some-app
+
 
 ## Usage
 

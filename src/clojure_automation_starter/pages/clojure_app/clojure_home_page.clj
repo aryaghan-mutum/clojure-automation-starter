@@ -3,6 +3,7 @@
   (:use [etaoin.api :all ()]))
 
 (def overview-link {:tag :a :href "/about/rationale"})
+
 (def reference-link {:xpath "//a[text()='Reference']"})
 (def api-link {:tag :a :href "/api/api"})
 (def releases-link {:tag :a :href "/community/downloads"})
